@@ -72,9 +72,8 @@ Run connectivity checks (router-to-router and client states):
 
 ---
 
-### ✅ 6. View the topology graph
+###  6. View the topology graph
 
 ```bash
-dot -Tsvg my_topology.dot -o topology.svg
-xdg-open topology.svg
+sudo containerlab graph -t ./4R-4S-16C.clab.yml
 ```
