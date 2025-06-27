@@ -17,9 +17,7 @@ This project simulates a multi-area OSPF network topology using [Containerlab](h
 
 A visual representation of the network topology:
 
-![Topology Graph](topology.svg)
-
-> (Generated from `my_topology.dot` using Graphviz.)
+<img width="990" alt="Screenshot 2025-06-26 at 4 11 02 PM" src="https://github.com/user-attachments/assets/80a8ab2b-39d1-4a55-a658-2897d6c656d9" />
 
 ---
 
