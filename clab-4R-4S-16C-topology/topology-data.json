@@ -1,0 +1,1104 @@
+{
+  "name": "4R-4S-16C-topology",
+  "type": "clab",
+  "clab": {
+    "config": {
+      "prefix": "clab",
+      "mgmt": {
+        "network": "clab",
+        "bridge": "br-223cb95fc923",
+        "ipv4-subnet": "172.20.20.0/24",
+        "ipv4-gw": "172.20.20.1",
+        "ipv6-subnet": "3fff:172:20:20::/64",
+        "ipv6-gw": "3fff:172:20:20::1",
+        "mtu": 1500,
+        "external-access": true
+      }
+    }
+  },
+  "ssh-pub-keys": ["ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIK8C7c9B2r9uBXbu5dBnRPhM+4lTAabDc0wnzb0FlrDm"],
+  "nodes": {
+    "C1": {
+      "index": "0",
+      "shortname": "C1",
+      "longname": "clab-4R-4S-16C-topology-C1",
+      "fqdn": "C1.4R-4S-16C-topology.io",
+      "group": "",
+      "labdir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C1",
+      "kind": "linux",
+      "image": "my-client:latest",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.48",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::30",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-223cb95fc923",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C1",
+        "clab-node-longname": "clab-4R-4S-16C-topology-C1",
+        "clab-node-name": "C1",
+        "clab-node-type": "",
+        "clab-owner": "hamidreza",
+        "clab-topo-file": "/home/hamidreza/Topologies/4R-4S-16C-topology/4R-4S-16C.clab.yml",
+        "containerlab": "4R-4S-16C-topology"
+      },
+      "port-bindings": [
+      ]
+    },
+    "C10": {
+      "index": "1",
+      "shortname": "C10",
+      "longname": "clab-4R-4S-16C-topology-C10",
+      "fqdn": "C10.4R-4S-16C-topology.io",
+      "group": "",
+      "labdir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C10",
+      "kind": "linux",
+      "image": "my-client:latest",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.66",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::42",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-223cb95fc923",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C10",
+        "clab-node-longname": "clab-4R-4S-16C-topology-C10",
+        "clab-node-name": "C10",
+        "clab-node-type": "",
+        "clab-owner": "hamidreza",
+        "clab-topo-file": "/home/hamidreza/Topologies/4R-4S-16C-topology/4R-4S-16C.clab.yml",
+        "containerlab": "4R-4S-16C-topology"
+      },
+      "port-bindings": [
+      ]
+    },
+    "C11": {
+      "index": "2",
+      "shortname": "C11",
+      "longname": "clab-4R-4S-16C-topology-C11",
+      "fqdn": "C11.4R-4S-16C-topology.io",
+      "group": "",
+      "labdir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C11",
+      "kind": "linux",
+      "image": "my-client:latest",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.61",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::3d",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-223cb95fc923",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C11",
+        "clab-node-longname": "clab-4R-4S-16C-topology-C11",
+        "clab-node-name": "C11",
+        "clab-node-type": "",
+        "clab-owner": "hamidreza",
+        "clab-topo-file": "/home/hamidreza/Topologies/4R-4S-16C-topology/4R-4S-16C.clab.yml",
+        "containerlab": "4R-4S-16C-topology"
+      },
+      "port-bindings": [
+      ]
+    },
+    "C12": {
+      "index": "3",
+      "shortname": "C12",
+      "longname": "clab-4R-4S-16C-topology-C12",
+      "fqdn": "C12.4R-4S-16C-topology.io",
+      "group": "",
+      "labdir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C12",
+      "kind": "linux",
+      "image": "my-client:latest",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.64",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::40",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-223cb95fc923",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C12",
+        "clab-node-longname": "clab-4R-4S-16C-topology-C12",
+        "clab-node-name": "C12",
+        "clab-node-type": "",
+        "clab-owner": "hamidreza",
+        "clab-topo-file": "/home/hamidreza/Topologies/4R-4S-16C-topology/4R-4S-16C.clab.yml",
+        "containerlab": "4R-4S-16C-topology"
+      },
+      "port-bindings": [
+      ]
+    },
+    "C13": {
+      "index": "4",
+      "shortname": "C13",
+      "longname": "clab-4R-4S-16C-topology-C13",
+      "fqdn": "C13.4R-4S-16C-topology.io",
+      "group": "",
+      "labdir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C13",
+      "kind": "linux",
+      "image": "my-client:latest",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.55",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::37",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-223cb95fc923",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C13",
+        "clab-node-longname": "clab-4R-4S-16C-topology-C13",
+        "clab-node-name": "C13",
+        "clab-node-type": "",
+        "clab-owner": "hamidreza",
+        "clab-topo-file": "/home/hamidreza/Topologies/4R-4S-16C-topology/4R-4S-16C.clab.yml",
+        "containerlab": "4R-4S-16C-topology"
+      },
+      "port-bindings": [
+      ]
+    },
+    "C14": {
+      "index": "5",
+      "shortname": "C14",
+      "longname": "clab-4R-4S-16C-topology-C14",
+      "fqdn": "C14.4R-4S-16C-topology.io",
+      "group": "",
+      "labdir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C14",
+      "kind": "linux",
+      "image": "my-client:latest",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.67",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::43",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-223cb95fc923",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C14",
+        "clab-node-longname": "clab-4R-4S-16C-topology-C14",
+        "clab-node-name": "C14",
+        "clab-node-type": "",
+        "clab-owner": "hamidreza",
+        "clab-topo-file": "/home/hamidreza/Topologies/4R-4S-16C-topology/4R-4S-16C.clab.yml",
+        "containerlab": "4R-4S-16C-topology"
+      },
+      "port-bindings": [
+      ]
+    },
+    "C15": {
+      "index": "6",
+      "shortname": "C15",
+      "longname": "clab-4R-4S-16C-topology-C15",
+      "fqdn": "C15.4R-4S-16C-topology.io",
+      "group": "",
+      "labdir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C15",
+      "kind": "linux",
+      "image": "my-client:latest",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.68",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::44",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-223cb95fc923",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C15",
+        "clab-node-longname": "clab-4R-4S-16C-topology-C15",
+        "clab-node-name": "C15",
+        "clab-node-type": "",
+        "clab-owner": "hamidreza",
+        "clab-topo-file": "/home/hamidreza/Topologies/4R-4S-16C-topology/4R-4S-16C.clab.yml",
+        "containerlab": "4R-4S-16C-topology"
+      },
+      "port-bindings": [
+      ]
+    },
+    "C16": {
+      "index": "7",
+      "shortname": "C16",
+      "longname": "clab-4R-4S-16C-topology-C16",
+      "fqdn": "C16.4R-4S-16C-topology.io",
+      "group": "",
+      "labdir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C16",
+      "kind": "linux",
+      "image": "my-client:latest",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.56",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::38",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-223cb95fc923",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C16",
+        "clab-node-longname": "clab-4R-4S-16C-topology-C16",
+        "clab-node-name": "C16",
+        "clab-node-type": "",
+        "clab-owner": "hamidreza",
+        "clab-topo-file": "/home/hamidreza/Topologies/4R-4S-16C-topology/4R-4S-16C.clab.yml",
+        "containerlab": "4R-4S-16C-topology"
+      },
+      "port-bindings": [
+      ]
+    },
+    "C2": {
+      "index": "8",
+      "shortname": "C2",
+      "longname": "clab-4R-4S-16C-topology-C2",
+      "fqdn": "C2.4R-4S-16C-topology.io",
+      "group": "",
+      "labdir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C2",
+      "kind": "linux",
+      "image": "my-client:latest",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.65",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::41",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-223cb95fc923",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C2",
+        "clab-node-longname": "clab-4R-4S-16C-topology-C2",
+        "clab-node-name": "C2",
+        "clab-node-type": "",
+        "clab-owner": "hamidreza",
+        "clab-topo-file": "/home/hamidreza/Topologies/4R-4S-16C-topology/4R-4S-16C.clab.yml",
+        "containerlab": "4R-4S-16C-topology"
+      },
+      "port-bindings": [
+      ]
+    },
+    "C3": {
+      "index": "9",
+      "shortname": "C3",
+      "longname": "clab-4R-4S-16C-topology-C3",
+      "fqdn": "C3.4R-4S-16C-topology.io",
+      "group": "",
+      "labdir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C3",
+      "kind": "linux",
+      "image": "my-client:latest",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.57",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::39",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-223cb95fc923",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C3",
+        "clab-node-longname": "clab-4R-4S-16C-topology-C3",
+        "clab-node-name": "C3",
+        "clab-node-type": "",
+        "clab-owner": "hamidreza",
+        "clab-topo-file": "/home/hamidreza/Topologies/4R-4S-16C-topology/4R-4S-16C.clab.yml",
+        "containerlab": "4R-4S-16C-topology"
+      },
+      "port-bindings": [
+      ]
+    },
+    "C4": {
+      "index": "10",
+      "shortname": "C4",
+      "longname": "clab-4R-4S-16C-topology-C4",
+      "fqdn": "C4.4R-4S-16C-topology.io",
+      "group": "",
+      "labdir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C4",
+      "kind": "linux",
+      "image": "my-client:latest",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.51",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::33",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-223cb95fc923",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C4",
+        "clab-node-longname": "clab-4R-4S-16C-topology-C4",
+        "clab-node-name": "C4",
+        "clab-node-type": "",
+        "clab-owner": "hamidreza",
+        "clab-topo-file": "/home/hamidreza/Topologies/4R-4S-16C-topology/4R-4S-16C.clab.yml",
+        "containerlab": "4R-4S-16C-topology"
+      },
+      "port-bindings": [
+      ]
+    },
+    "C5": {
+      "index": "11",
+      "shortname": "C5",
+      "longname": "clab-4R-4S-16C-topology-C5",
+      "fqdn": "C5.4R-4S-16C-topology.io",
+      "group": "",
+      "labdir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C5",
+      "kind": "linux",
+      "image": "my-client:latest",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.69",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::45",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-223cb95fc923",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C5",
+        "clab-node-longname": "clab-4R-4S-16C-topology-C5",
+        "clab-node-name": "C5",
+        "clab-node-type": "",
+        "clab-owner": "hamidreza",
+        "clab-topo-file": "/home/hamidreza/Topologies/4R-4S-16C-topology/4R-4S-16C.clab.yml",
+        "containerlab": "4R-4S-16C-topology"
+      },
+      "port-bindings": [
+      ]
+    },
+    "C6": {
+      "index": "12",
+      "shortname": "C6",
+      "longname": "clab-4R-4S-16C-topology-C6",
+      "fqdn": "C6.4R-4S-16C-topology.io",
+      "group": "",
+      "labdir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C6",
+      "kind": "linux",
+      "image": "my-client:latest",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.47",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::2f",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-223cb95fc923",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C6",
+        "clab-node-longname": "clab-4R-4S-16C-topology-C6",
+        "clab-node-name": "C6",
+        "clab-node-type": "",
+        "clab-owner": "hamidreza",
+        "clab-topo-file": "/home/hamidreza/Topologies/4R-4S-16C-topology/4R-4S-16C.clab.yml",
+        "containerlab": "4R-4S-16C-topology"
+      },
+      "port-bindings": [
+      ]
+    },
+    "C7": {
+      "index": "13",
+      "shortname": "C7",
+      "longname": "clab-4R-4S-16C-topology-C7",
+      "fqdn": "C7.4R-4S-16C-topology.io",
+      "group": "",
+      "labdir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C7",
+      "kind": "linux",
+      "image": "my-client:latest",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.58",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::3a",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-223cb95fc923",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C7",
+        "clab-node-longname": "clab-4R-4S-16C-topology-C7",
+        "clab-node-name": "C7",
+        "clab-node-type": "",
+        "clab-owner": "hamidreza",
+        "clab-topo-file": "/home/hamidreza/Topologies/4R-4S-16C-topology/4R-4S-16C.clab.yml",
+        "containerlab": "4R-4S-16C-topology"
+      },
+      "port-bindings": [
+      ]
+    },
+    "C8": {
+      "index": "14",
+      "shortname": "C8",
+      "longname": "clab-4R-4S-16C-topology-C8",
+      "fqdn": "C8.4R-4S-16C-topology.io",
+      "group": "",
+      "labdir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C8",
+      "kind": "linux",
+      "image": "my-client:latest",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.49",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::31",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-223cb95fc923",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C8",
+        "clab-node-longname": "clab-4R-4S-16C-topology-C8",
+        "clab-node-name": "C8",
+        "clab-node-type": "",
+        "clab-owner": "hamidreza",
+        "clab-topo-file": "/home/hamidreza/Topologies/4R-4S-16C-topology/4R-4S-16C.clab.yml",
+        "containerlab": "4R-4S-16C-topology"
+      },
+      "port-bindings": [
+      ]
+    },
+    "C9": {
+      "index": "15",
+      "shortname": "C9",
+      "longname": "clab-4R-4S-16C-topology-C9",
+      "fqdn": "C9.4R-4S-16C-topology.io",
+      "group": "",
+      "labdir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C9",
+      "kind": "linux",
+      "image": "my-client:latest",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.50",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::32",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-223cb95fc923",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/C9",
+        "clab-node-longname": "clab-4R-4S-16C-topology-C9",
+        "clab-node-name": "C9",
+        "clab-node-type": "",
+        "clab-owner": "hamidreza",
+        "clab-topo-file": "/home/hamidreza/Topologies/4R-4S-16C-topology/4R-4S-16C.clab.yml",
+        "containerlab": "4R-4S-16C-topology"
+      },
+      "port-bindings": [
+      ]
+    },
+    "R1": {
+      "index": "16",
+      "shortname": "R1",
+      "longname": "clab-4R-4S-16C-topology-R1",
+      "fqdn": "R1.4R-4S-16C-topology.io",
+      "group": "",
+      "labdir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/R1",
+      "kind": "linux",
+      "image": "frrouting/frr:v7.5.1",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.53",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::35",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-223cb95fc923",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/R1",
+        "clab-node-longname": "clab-4R-4S-16C-topology-R1",
+        "clab-node-name": "R1",
+        "clab-node-type": "",
+        "clab-owner": "hamidreza",
+        "clab-topo-file": "/home/hamidreza/Topologies/4R-4S-16C-topology/4R-4S-16C.clab.yml",
+        "containerlab": "4R-4S-16C-topology"
+      },
+      "port-bindings": [
+      ]
+    },
+    "R2": {
+      "index": "17",
+      "shortname": "R2",
+      "longname": "clab-4R-4S-16C-topology-R2",
+      "fqdn": "R2.4R-4S-16C-topology.io",
+      "group": "",
+      "labdir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/R2",
+      "kind": "linux",
+      "image": "frrouting/frr:v7.5.1",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.60",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::3c",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-223cb95fc923",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/R2",
+        "clab-node-longname": "clab-4R-4S-16C-topology-R2",
+        "clab-node-name": "R2",
+        "clab-node-type": "",
+        "clab-owner": "hamidreza",
+        "clab-topo-file": "/home/hamidreza/Topologies/4R-4S-16C-topology/4R-4S-16C.clab.yml",
+        "containerlab": "4R-4S-16C-topology"
+      },
+      "port-bindings": [
+      ]
+    },
+    "R3": {
+      "index": "18",
+      "shortname": "R3",
+      "longname": "clab-4R-4S-16C-topology-R3",
+      "fqdn": "R3.4R-4S-16C-topology.io",
+      "group": "",
+      "labdir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/R3",
+      "kind": "linux",
+      "image": "frrouting/frr:v7.5.1",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.52",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::34",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-223cb95fc923",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/R3",
+        "clab-node-longname": "clab-4R-4S-16C-topology-R3",
+        "clab-node-name": "R3",
+        "clab-node-type": "",
+        "clab-owner": "hamidreza",
+        "clab-topo-file": "/home/hamidreza/Topologies/4R-4S-16C-topology/4R-4S-16C.clab.yml",
+        "containerlab": "4R-4S-16C-topology"
+      },
+      "port-bindings": [
+      ]
+    },
+    "R4": {
+      "index": "19",
+      "shortname": "R4",
+      "longname": "clab-4R-4S-16C-topology-R4",
+      "fqdn": "R4.4R-4S-16C-topology.io",
+      "group": "",
+      "labdir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/R4",
+      "kind": "linux",
+      "image": "frrouting/frr:v7.5.1",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.63",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::3f",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-223cb95fc923",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/R4",
+        "clab-node-longname": "clab-4R-4S-16C-topology-R4",
+        "clab-node-name": "R4",
+        "clab-node-type": "",
+        "clab-owner": "hamidreza",
+        "clab-topo-file": "/home/hamidreza/Topologies/4R-4S-16C-topology/4R-4S-16C.clab.yml",
+        "containerlab": "4R-4S-16C-topology"
+      },
+      "port-bindings": [
+      ]
+    },
+    "S1": {
+      "index": "20",
+      "shortname": "S1",
+      "longname": "clab-4R-4S-16C-topology-S1",
+      "fqdn": "S1.4R-4S-16C-topology.io",
+      "group": "",
+      "labdir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/S1",
+      "kind": "ceos",
+      "image": "testing954/ceos:4.28.0F",
+      "mgmt-net": "",
+      "mgmt-intf": "Management0",
+      "mgmt-ipv4-address": "172.20.20.59",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::3b",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "00:1c:73:57:8e:10",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-223cb95fc923",
+        "clab-node-group": "",
+        "clab-node-kind": "ceos",
+        "clab-node-lab-dir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/S1",
+        "clab-node-longname": "clab-4R-4S-16C-topology-S1",
+        "clab-node-name": "S1",
+        "clab-node-type": "",
+        "clab-owner": "hamidreza",
+        "clab-topo-file": "/home/hamidreza/Topologies/4R-4S-16C-topology/4R-4S-16C.clab.yml",
+        "containerlab": "4R-4S-16C-topology"
+      },
+      "port-bindings": [
+      ]
+    },
+    "S2": {
+      "index": "21",
+      "shortname": "S2",
+      "longname": "clab-4R-4S-16C-topology-S2",
+      "fqdn": "S2.4R-4S-16C-topology.io",
+      "group": "",
+      "labdir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/S2",
+      "kind": "ceos",
+      "image": "testing954/ceos:4.28.0F",
+      "mgmt-net": "",
+      "mgmt-intf": "Management0",
+      "mgmt-ipv4-address": "172.20.20.54",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::36",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "00:1c:73:96:ff:93",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-223cb95fc923",
+        "clab-node-group": "",
+        "clab-node-kind": "ceos",
+        "clab-node-lab-dir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/S2",
+        "clab-node-longname": "clab-4R-4S-16C-topology-S2",
+        "clab-node-name": "S2",
+        "clab-node-type": "",
+        "clab-owner": "hamidreza",
+        "clab-topo-file": "/home/hamidreza/Topologies/4R-4S-16C-topology/4R-4S-16C.clab.yml",
+        "containerlab": "4R-4S-16C-topology"
+      },
+      "port-bindings": [
+      ]
+    },
+    "S3": {
+      "index": "22",
+      "shortname": "S3",
+      "longname": "clab-4R-4S-16C-topology-S3",
+      "fqdn": "S3.4R-4S-16C-topology.io",
+      "group": "",
+      "labdir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/S3",
+      "kind": "ceos",
+      "image": "testing954/ceos:4.28.0F",
+      "mgmt-net": "",
+      "mgmt-intf": "Management0",
+      "mgmt-ipv4-address": "172.20.20.46",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::2e",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "00:1c:73:cf:17:bc",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-223cb95fc923",
+        "clab-node-group": "",
+        "clab-node-kind": "ceos",
+        "clab-node-lab-dir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/S3",
+        "clab-node-longname": "clab-4R-4S-16C-topology-S3",
+        "clab-node-name": "S3",
+        "clab-node-type": "",
+        "clab-owner": "hamidreza",
+        "clab-topo-file": "/home/hamidreza/Topologies/4R-4S-16C-topology/4R-4S-16C.clab.yml",
+        "containerlab": "4R-4S-16C-topology"
+      },
+      "port-bindings": [
+      ]
+    },
+    "S4": {
+      "index": "23",
+      "shortname": "S4",
+      "longname": "clab-4R-4S-16C-topology-S4",
+      "fqdn": "S4.4R-4S-16C-topology.io",
+      "group": "",
+      "labdir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/S4",
+      "kind": "ceos",
+      "image": "testing954/ceos:4.28.0F",
+      "mgmt-net": "",
+      "mgmt-intf": "Management0",
+      "mgmt-ipv4-address": "172.20.20.62",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::3e",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "00:1c:73:1c:80:8a",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-223cb95fc923",
+        "clab-node-group": "",
+        "clab-node-kind": "ceos",
+        "clab-node-lab-dir": "/home/hamidreza/Topologies/4R-4S-16C-topology/clab-4R-4S-16C-topology/S4",
+        "clab-node-longname": "clab-4R-4S-16C-topology-S4",
+        "clab-node-name": "S4",
+        "clab-node-type": "",
+        "clab-owner": "hamidreza",
+        "clab-topo-file": "/home/hamidreza/Topologies/4R-4S-16C-topology/4R-4S-16C.clab.yml",
+        "containerlab": "4R-4S-16C-topology"
+      },
+      "port-bindings": [
+      ]
+    }
+  },
+  "links": [
+    {
+      "a": {
+        "node": "R1",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:9d:32:d2",
+        "peer": "z"
+      },
+      "z": {
+        "node": "R2",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:65:d0:fc",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "R2",
+        "interface": "eth2",
+        "mac": "aa:c1:ab:63:66:37",
+        "peer": "z"
+      },
+      "z": {
+        "node": "R3",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:70:7c:3a",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "R3",
+        "interface": "eth2",
+        "mac": "aa:c1:ab:9f:dd:b7",
+        "peer": "z"
+      },
+      "z": {
+        "node": "R4",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:72:cd:21",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "R4",
+        "interface": "eth2",
+        "mac": "aa:c1:ab:8f:fd:60",
+        "peer": "z"
+      },
+      "z": {
+        "node": "R1",
+        "interface": "eth2",
+        "mac": "aa:c1:ab:a4:c7:ac",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "R1",
+        "interface": "eth3",
+        "mac": "aa:c1:ab:89:16:bb",
+        "peer": "z"
+      },
+      "z": {
+        "node": "S1",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:c0:de:9c",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "R2",
+        "interface": "eth3",
+        "mac": "aa:c1:ab:45:f0:4d",
+        "peer": "z"
+      },
+      "z": {
+        "node": "S2",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:01:bc:c4",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "R3",
+        "interface": "eth3",
+        "mac": "aa:c1:ab:94:d2:6e",
+        "peer": "z"
+      },
+      "z": {
+        "node": "S3",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:34:da:9b",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "R4",
+        "interface": "eth3",
+        "mac": "aa:c1:ab:3f:b9:2d",
+        "peer": "z"
+      },
+      "z": {
+        "node": "S4",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:28:03:ec",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "S1",
+        "interface": "eth2",
+        "mac": "aa:c1:ab:8b:a2:a4",
+        "peer": "z"
+      },
+      "z": {
+        "node": "C1",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:1b:1d:cf",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "S1",
+        "interface": "eth3",
+        "mac": "aa:c1:ab:e1:73:d9",
+        "peer": "z"
+      },
+      "z": {
+        "node": "C2",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:ce:d2:cb",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "S1",
+        "interface": "eth4",
+        "mac": "aa:c1:ab:5e:37:be",
+        "peer": "z"
+      },
+      "z": {
+        "node": "C3",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:67:e6:fe",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "S1",
+        "interface": "eth5",
+        "mac": "aa:c1:ab:8f:46:bd",
+        "peer": "z"
+      },
+      "z": {
+        "node": "C4",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:d3:6c:f2",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "S2",
+        "interface": "eth2",
+        "mac": "aa:c1:ab:31:88:05",
+        "peer": "z"
+      },
+      "z": {
+        "node": "C5",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:d0:59:11",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "S2",
+        "interface": "eth3",
+        "mac": "aa:c1:ab:ff:55:a1",
+        "peer": "z"
+      },
+      "z": {
+        "node": "C6",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:a3:89:07",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "S2",
+        "interface": "eth4",
+        "mac": "aa:c1:ab:22:d5:97",
+        "peer": "z"
+      },
+      "z": {
+        "node": "C7",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:c3:d7:80",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "S2",
+        "interface": "eth5",
+        "mac": "aa:c1:ab:b3:68:83",
+        "peer": "z"
+      },
+      "z": {
+        "node": "C8",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:ef:69:1c",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "S3",
+        "interface": "eth2",
+        "mac": "aa:c1:ab:42:14:0a",
+        "peer": "z"
+      },
+      "z": {
+        "node": "C9",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:e6:ec:be",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "S3",
+        "interface": "eth3",
+        "mac": "aa:c1:ab:55:0b:6a",
+        "peer": "z"
+      },
+      "z": {
+        "node": "C10",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:cd:8f:17",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "S3",
+        "interface": "eth4",
+        "mac": "aa:c1:ab:1a:d7:d4",
+        "peer": "z"
+      },
+      "z": {
+        "node": "C11",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:18:6e:c2",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "S3",
+        "interface": "eth5",
+        "mac": "aa:c1:ab:8c:a9:bf",
+        "peer": "z"
+      },
+      "z": {
+        "node": "C12",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:cb:2d:d7",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "S4",
+        "interface": "eth2",
+        "mac": "aa:c1:ab:29:72:14",
+        "peer": "z"
+      },
+      "z": {
+        "node": "C13",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:09:4d:a1",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "S4",
+        "interface": "eth3",
+        "mac": "aa:c1:ab:76:1d:0b",
+        "peer": "z"
+      },
+      "z": {
+        "node": "C14",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:cf:bc:ca",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "S4",
+        "interface": "eth4",
+        "mac": "aa:c1:ab:8a:2f:40",
+        "peer": "z"
+      },
+      "z": {
+        "node": "C15",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:f2:bf:c8",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "S4",
+        "interface": "eth5",
+        "mac": "aa:c1:ab:6b:7d:2d",
+        "peer": "z"
+      },
+      "z": {
+        "node": "C16",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:6f:f5:b7",
+        "peer": "a"
+      }
+    }
+  ]
+}

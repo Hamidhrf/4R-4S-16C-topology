@@ -1,0 +1,29 @@
+# Containerlab runtime files
+.clab*
+topology-data.json
+
+# Backup files
+*.bak
+
+# Graphviz and image outputs
+*.svg
+*.png
+*.dot
+
+# Python cache
+__pycache__/
+
+# Package files
+*.zip
+*.tar
+
+# TLS keys and secrets
+.tls/
+*.pem
+*.key
+
+# SSH or sensitive auth files
+authorized_keys
+
+# Logs
+*.log
