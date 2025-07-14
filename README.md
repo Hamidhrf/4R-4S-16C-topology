@@ -64,10 +64,10 @@ Assign static IPs to all 16 clients:
 
 ###  5. Test the lab
 
-Run connectivity checks (router-to-router and client states):
+Run connectivity checks:
 
 ```bash
-./test-connectivity.sh
+./client-ping-matrix.sh
 ```
 
 ---
