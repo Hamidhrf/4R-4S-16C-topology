@@ -3,97 +3,97 @@ S1:
     username: admin
     password: admin
     platform: ceos
-    hostname: 172.20.20.59
+    hostname: 172.20.20.65
 S2:
     username: admin
     password: admin
     platform: ceos
-    hostname: 172.20.20.54
+    hostname: 172.20.20.60
 S3:
     username: admin
     password: admin
     platform: ceos
-    hostname: 172.20.20.46
+    hostname: 172.20.20.63
 S4:
     username: admin
     password: admin
     platform: ceos
-    hostname: 172.20.20.62
+    hostname: 172.20.20.67
 C1:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.48
+    hostname: 172.20.20.61
 C10:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.66
+    hostname: 172.20.20.46
 C11:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.61
+    hostname: 172.20.20.69
 C12:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.64
+    hostname: 172.20.20.62
 C13:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.55
+    hostname: 172.20.20.58
 C14:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.67
+    hostname: 172.20.20.51
 C15:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.68
+    hostname: 172.20.20.57
 C16:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.56
+    hostname: 172.20.20.52
 C2:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.65
+    hostname: 172.20.20.59
 C3:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.57
+    hostname: 172.20.20.49
 C4:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.51
+    hostname: 172.20.20.68
 C5:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.69
+    hostname: 172.20.20.47
 C6:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.47
+    hostname: 172.20.20.55
 C7:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.58
+    hostname: 172.20.20.56
 C8:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.49
+    hostname: 172.20.20.64
 C9:
     username: 
     password: 
@@ -108,14 +108,14 @@ R2:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.60
+    hostname: 172.20.20.66
 R3:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.52
+    hostname: 172.20.20.48
 R4:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.63
+    hostname: 172.20.20.54
