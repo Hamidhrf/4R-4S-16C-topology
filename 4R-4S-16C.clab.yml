@@ -27,16 +27,16 @@ topology:
         - R4/daemons:/etc/frr/daemons
         - R4/frr.conf:/etc/frr/frr.conf
     S1:
-      kind: ceos
+      kind: arista_ceos
       image: testing954/ceos:4.28.0F
     S2:
-      kind: ceos
+      kind: arista_ceos
       image: testing954/ceos:4.28.0F
     S3:
-      kind: ceos
+      kind: arista_ceos
       image: testing954/ceos:4.28.0F
     S4:
-      kind: ceos
+      kind: arista_ceos
       image: testing954/ceos:4.28.0F
     C1:
       kind: linux
