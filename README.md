@@ -77,3 +77,45 @@ Run connectivity checks:
 ```bash
 sudo containerlab graph -t ./4R-4S-16C.clab.yml
 ```
+
+---
+
+###  7. Apply delays
+
+This lab supports optional network delay simulation using tc netem.
+
+Default delays:
+
+Normal links → 5 ms one-way (~10 ms RTT)
+
+Special CH nodes (C1, C5, C9, C13) → 1 ms one-way (~2 ms RTT)
+
+```bash
+./scripts/apply_delays.sh
+```
+
+---
+
+###  8. Remove delays
+
+Cleans up all delays.
+
+```bash
+./scripts/remove_delays.sh
+```
+
+---
+
+###  9. Verify delays
+
+Check the active delay settings on any container:
+
+```bash
+docker exec clab-4R-4S-16C-topology-C1 tc qdisc show
+```
+
+Ping between clients to confirm RTT:
+
+```bash
+docker exec clab-4R-4S-16C-topology-C2 ping -c 3 clab-4R-4S-16C-topology-C3
+```
